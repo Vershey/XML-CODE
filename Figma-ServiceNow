@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+<element db_object_id="1650a396830022109a6cc7b6feaad3fb" label="DD" max_length="40" name="x_1625773_figma_0_ddh" type="collection">
+<element choice="3" label="pchoice" max_length="40" name="pchoice" type="choice">
+<choice>
+<element inactive_on_update="false" label="P2" sequence="1" value="p2"/>
+<element inactive_on_update="false" label="P1" sequence="0" value="p1"/>
+</choice>
+</element>
+<element label="f1" max_length="40" name="f1" type="string"/>
+<element label="product" max_length="40" name="product" type="string"/>
+<element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+<index name="index">
+<element name="sys_class_name"/>
+</index>
+</element>
+</database>
